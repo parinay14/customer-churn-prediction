@@ -1,0 +1,17 @@
+Key Columns and Their Descriptions
+customerID: Unique identifier for each customer.
+gender: Customer's gender (Male or Female).
+SeniorCitizen: Indicates if the customer is a senior citizen (1 for Yes, 0 for No).
+Partner: Whether the customer has a partner (Yes or No).
+Dependents: Indicates if the customer has dependents (Yes or No).
+tenure: Number of months the customer has stayed with the company.
+PhoneService: Whether the customer has phone service (Yes or No).
+MultipleLines: Whether the customer has multiple phone lines (No, Yes, or No phone service).
+InternetService: Type of internet service (DSL, Fiber optic, or No).
+OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies: Whether these services are included (Yes, No, or No internet service).
+Contract: Customer's contract type (Month-to-month, One year, or Two year).
+PaperlessBilling: Whether billing is paperless (Yes or No).
+PaymentMethod: Payment method (e.g., Electronic check, Mailed check, Bank transfer).
+MonthlyCharges: The amount billed monthly.
+TotalCharges: Total amount billed to the customer (needs cleaning as it includes non-numeric values).
+Churn: Target variable indicating if the customer has churned (Yes or No).
